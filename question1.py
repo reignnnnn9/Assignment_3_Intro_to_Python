@@ -7,7 +7,7 @@ print("\n")
 
 print("=== MOVIE TICKET RECEIPT ===")
 print(f"Customer: {name}")
-#print(f"Ticket Type: {ticket_type}")
+#print(f"Ticket Type: {ticket_type}") - was not sure if I needed to use this or what I did was correct
 if age < 13:
     print("Ticket Type: Child ($8.00 each)")
     ticket_cost = 8
