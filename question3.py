@@ -1,6 +1,6 @@
 #Pet Age Calculator
 
-type = input("Enter pet type (dog/cat/bird/hamster): ").capitalize() #after this the type need to be capitalized
+type = input("Enter pet type (dog/cat/bird/hamster): ").capitalize() #after this the type variables need to be capitalized
 age = int(input("Enter your pet's age in human years: "))
 pet_age = 0
 if type == "Dog":
